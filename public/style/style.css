@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    font-size: 2rem;
+    background-color: rgb(88, 145, 3);
+    height: 12vh;
+}
+
+nav > ul{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    padding: 8px 12px 8px 12px;
+    border: 3px solid black;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 1s ease-out;
+}
+
+nav > ul > li > a:hover,a:focus{
+    background-color:black;
+    color:rgb(151, 247, 7);
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3vh;
+    background-color: rgb(151, 247, 7);
+    height: 10vh;
+}
+
+h2{
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 3vh;
+    background-color: rgb(151, 247, 7);
+    height: 10vh;
+}
+
+
+.img-salvador-dali{
+    width: 30vw;
+    height: auto;
+}
+
+.home-int{
+    background-color: rgb(151, 247, 7);
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.img-salvador-about{
+    width: 30vw;
+    height: auto;
+}
+
+.about-artist{
+    background-color: rgb(151, 247, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.about-artist li{
+    font-size: 1.8rem;
+    list-style-type: none;
+    margin-bottom: 12vh;
+}
+
+.card-img > img{
+    width: 25vw;
+}
+.card-img{
+    width: 30vw;
+    margin-bottom: 8vh;
+}
+
+.card-img{
+    text-align: center;
+}
+
+.card-img p{
+    font-weight: 700;
+}
+
+.cards-works{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(151, 247, 7);
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
